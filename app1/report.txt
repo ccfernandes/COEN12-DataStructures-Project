@@ -1,0 +1,17 @@
+//Chelsea Fernandes
+//app1, report.txt
+
+My data structure is an array of pointers that point to multiple linked lists. 
+Each linked list has a dummy node. 
+The array index corresponds to the age of the student and each linked list has all of the students ID's who have that age. 
+This makes searching for a certain age efficient. 
+
+
+
+||complexity:||
+createDataSet:	O(n)
+destroyDataSet:	O(n)
+searchAge:  	O(1)
+insertion:  	O(1)
+deletion:	O(n)
+maxAgeGap:  	O(1)

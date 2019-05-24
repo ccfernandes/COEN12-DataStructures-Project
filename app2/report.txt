@@ -1,0 +1,12 @@
+//Chelsea Fernandes
+//app2, report.txt
+
+My data structure for this application is an array of structures, that holds the age and id of the student. Searching and deleting are not as efficient. 
+
+
+||complexity:||
+createDataSet:	O(1)
+destroyDataSet: O(n)
+searchID:	O(n)
+insertion:  	O(1)
+deletion:   	O(n)
